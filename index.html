@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- UATSpace Page
+written by : Tahji Townsend
+tahjitownsend241@gmail.com
+(5/14/21)-->
+<!-- The Zestsino
+ Paragraph description will be on the webpage-->
+<html>
+
+<head>
+
+    <link href="style.css" rel="stylesheet" type="text/css" /> <!-- Links style file -->
+    <script src="code.js"></script> <!-- Links Java Script file-->
+    <title>
+        Tahji Townsend's UATSpace Page
+        <!--Titles Page-->
+    </title>
+</head>
+
+<body>
+    <img src="UATspaceLogo-2.jpg"> <!-- Displays image-->
+
+    <h1>
+        UAT Space Program
+        <!-- Head of Page-->
+    </h1>
+    <script>
+        // Javascript stuff happens between the <script> tags
+        document.write("Test of the document.write function");
+    </script>
+    <p>
+        Test of the Paragraph tag
+    </p>
+    <br> <!-- Line break-->
+    <br>
+    <p id="countdownTimer"> Countdown Status...</p>
+    <button onclick="startCountdown();"> Start</button> <!-- Start Button-->
+    <button> Stop</button> <!-- Stop Button-->
+
+    <script>
+        // alert not needed 
+        //  alert("Alert Test!!"); // Outputs page alert
+    </script>
+
+    <!-- Space for The Craps Game-->
+    <br>
+    <br>
+    Welcome to THE Zestsino
+    <br>
+    <br>
+    <!-- Paragraph introduciton for Casino-->
+    The Zestsino is a world reknown gambling establishment where only the highest rollers can step up to play.
+    This is the place where put up or shut up is the name of the game. With only the highest quality slot machines
+    and gaming tables there is infinite possibility to get lost in this Zesty paradise. There is even a chance you
+    may get to play with the one and only: THE Zestman. Good luck though because legend says not only does he hit
+    everytime he touches the slot machine, he also has never lost a table game in his life. So come on and try your luck
+    at THE Zestsino: Come for the craps, stay for the Zest!
+
+    <br>
+    <br>
+    <div id="die1Results">Status of Game...</div><br> <!-- calls die1 resulsts-->
+    <div id="die2Results"></div><br> <!-- calls die2 results-->
+    <div id="sumResults"></div><br> <!-- calls the sum of the die-->
+    <div id="crapsResults"></div><br> <!-- calls the results of craps-->
+    <button onclick="playCraps();">Play Craps</button> <!-- button to start the craps game-->
+    <br>
+    <br>
+    <!-- SANDBOX AREA/TEST AREA-->
+    <div id="sandRes">Sandbox output</div><br>
+    <button onclick="sandboxArea()">Sandbox Test</button>
+
+</body>
+
+</html>
